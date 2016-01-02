@@ -151,10 +151,13 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Ido\Providers\AppServiceProvider::class,
+        Ido\Providers\AuthServiceProvider::class,
+        Ido\Providers\EventServiceProvider::class,
+        Ido\Providers\RouteServiceProvider::class,
+
+        // laravel debugger serivce provider
+        Barryvdh\Debugbar\ServiceProvider::class,
 
     ],
 
@@ -201,7 +204,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Ido;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

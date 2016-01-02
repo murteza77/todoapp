@@ -38,7 +38,9 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Codeweekend Todo app open source contribution with Laravel 5.2</div>
+                <p>contact me </p>
+                zargar@lifecode.af 
             </div>
         </div>
     </body>
